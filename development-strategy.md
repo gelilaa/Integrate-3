@@ -6,7 +6,7 @@ A simple little website.
 
 ## Wireframe
 
-![wireframe](./wireframe.gif)
+![wireframe](https://github.com/HackYourFutureBelgium/incremental-development/blob/master/integrate/wireframe.gif?raw=true)
 
 ## 0. Set-Up
 
