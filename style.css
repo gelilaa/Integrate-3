@@ -1,3 +1,44 @@
+main {
+    display: grid;
+    grid-template-areas: "main-sec1 main-sec2" "main-sec3 main-sec3";
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+
+.sec {
+    border-radius: 10px;
+    ;
+    padding: 10px;
+    background: #ddd;
+    color: #333;
+}
+
+.sec .main-sec1 {
+    grid-area: main-sec1;
+}
+
+.sec .main-sec2 {
+    grid-area: main-sec2;
+}
+
+.sec .main-sec3 {
+    grid-area: main-sec3;
+}
+
+.introduction {
+    height: 250px;
+    background-color: beige;
+
+  }
+
+.introduction p {
+    font-family: fantasy;
+    font-size: 1.2em;
+ 
+.site-title {
+    color: black;
+}
 
 .contact.info {
     position: fixed;
