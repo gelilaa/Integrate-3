@@ -5,6 +5,7 @@ main {
     gap: 5px;
 }
 
+
 .sec {
     border-radius: 10px;
     ;
@@ -24,3 +25,18 @@ main {
 .sec .main-sec3 {
     grid-area: main-sec3;
 }
+
+.introduction {
+    height: 250px;
+    background-color: beige;
+
+  }
+
+.introduction p {
+    font-family: fantasy;
+    font-size: 1.2em;
+ 
+.site-title {
+    color: black;
+}
+
