@@ -1,4 +1,17 @@
 
+
+.introduction {
+    height: 250px;
+    background-color: beige;
+
+  }
+
+.introduction p {
+    font-family: fantasy;
+    font-size: 1.2em;
+  }
+=======
 .site-title {
     color: black;
 }
+
