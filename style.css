@@ -1,59 +1,70 @@
 main {
     display: grid;
     grid-template-areas: "main-sec1 main-sec2" "main-sec3 main-sec3";
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
 }
 
-
 .references {
-   background-color: pink; 
-   border: 1px solid lightslategray;
-   width :30%;
-   font-family: Arial, Helvetica, sans-serif;
-   line-height: 2em;
-   letter-spacing: 0.2px;
-   float: right;
-   margin-top: 20%;
-   padding: 20px;
+    background-color: pink;
+    border: 1px solid lightslategray;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    letter-spacing: 0.2px;
+    float: right;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    min-height: 80px;
+    width: 100%;
+    background: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
 }
 
 .references ul {
     list-style: none;
 }
 
-
-
 .sec {
     border-radius: 10px;
-    ;
     padding: 10px;
     background: #ddd;
     color: #333;
 }
 
-.sec .main-sec1 {
+.main-sec1 {
     grid-area: main-sec1;
 }
 
-.sec .main-sec2 {
+.main-sec2 {
     grid-area: main-sec2;
 }
 
-.sec .main-sec3 {
+.main-sec3 {
     grid-area: main-sec3;
 }
 
 .introduction {
     height: 250px;
     background-color: beige;
-
-  }
+}
 
 .introduction p {
     font-family: fantasy;
     font-size: 1.2em;
 }
+
 .site-title {
     color: black;
 }
@@ -66,5 +77,4 @@ main {
     background-color: red;
     color: white;
     text-align: center;
-  }
-
+}
